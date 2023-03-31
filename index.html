@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="script.js"></script>
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="left">
+      <div class="logo">
+        <img src="images/odin-lined.png" alt="Odin Project Logo" />
+        <h1>Odin</h1>
+      </div>
+    </div>
+    <div class="right">
+      <header>
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. <br />Sign
+          up <i>now</i> to get started.
+        </p>
+        <p>You <i>know</i> you want to</p>
+      </header>
+      <form action="" class="signupform" id="signupform">
+        <div class="container">
+          <p class="call-to-action">Let's do this!</p>
+          <div class="form-row">
+            <label
+              >First Name
+              <input type="text" name="first-name" />
+            </label>
+            <label
+              >Last Name
+              <input type="text" name="last-name" />
+            </label>
+          </div>
+          <div class="form-row">
+            <label
+              >Email
+              <input type="email" name="email" id="email" />
+            </label>
+            <label
+              >Phone Number
+              <input type="text" name="phone-number" id="phone-number" />
+            </label>
+          </div>
+          <div class="form-row" id="password-input-row">
+            <label
+              >Password
+              <input type="password" name="password" id="password" required />
+            </label>
+            <label
+              >Confirm Password
+              <input
+                type="password"
+                name="password-confirm"
+                id="password-confirm"
+                required
+              />
+            </label>
+          </div>
+        </div>
+        <button type="submit" id="create">Create Account</button>
+        <p>Already have an account? <a class="login" href="">Log in</a></p>
+      </form>
+    </div>
+  </body>
+</html>
